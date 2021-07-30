@@ -1,0 +1,99 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0.462745, 1, 1 )
+
+[node name="titlePage" type="Node2D"]
+
+[node name="background" type="Panel" parent="."]
+margin_right = 248.0
+margin_bottom = 248.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="background2" type="Panel" parent="background"]
+margin_left = 13.0
+margin_top = 13.0
+margin_right = 234.0
+margin_bottom = 236.0
+
+[node name="title" type="Label" parent="."]
+margin_left = 86.4654
+margin_top = 47.0935
+margin_right = 164.465
+margin_bottom = 61.0935
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title2" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title3" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title4" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title5" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title6" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title7" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title8" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title9" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title10" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title11" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="title12" type="Label" parent="title"]
+margin_right = 78.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+text = "ED-PACMAN"
+
+[node name="startButton" type="Button" parent="."]
+margin_left = 103.43
+margin_top = 89.4234
+margin_right = 144.43
+margin_bottom = 109.423
+text = "Start"
+
